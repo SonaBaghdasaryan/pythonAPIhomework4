@@ -1,0 +1,15 @@
+address: http://test-stand.gb.ru
+url_post: "https://test-stand.gb.ru/api/posts"
+url_auto: 'https://test-stand.gb.ru/gateway/login'
+sleep_time: 1
+browser:  chrome
+username: "ann88"
+password: "3729244773"
+title: "Интересные факты о животных"
+description: "Про животных"
+content: "Чтобы сделать килограмм меда, пчелка должна облететь 2 млн. цветков"
+Contact_us: "Contact us!"
+email: "ann@mail.ru"
+content_CU: "content contact us"
+alert: "Form successfully submitted"
+search_title: 'Интересные факты'

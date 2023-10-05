@@ -1,0 +1,19 @@
+css:
+    LOCATOR_LOGIN_FIELD: '#login > div:nth-child(1) > label > input'
+    LOCATOR_PASS_FIELD: '#login > div:nth-child(2) > label > input'
+    LOCATOR_LOGIN_BTN: '#login > div.submit.svelte-uwkxn9 > button > span'
+    LOCATOR_ERROR_FIELD: '#app > main > div > div > div.error-block.svelte-uwkxn9 > h2'
+    LOCATOR_SUCCESS: '#app > main > nav > ul > li.svelte-1rc85o5.mdc-menu-surface--anchor > a'
+    LOCATOR_BTN_NEW_POST: '#app > main > div > div.actions.svelte-1e9zcmy > div.button-block.svelte-1e9zcmy'
+    LOCATOR_TITLE_NEW_POST: '#create-item > div > div > div:nth-child(1) > div > label > input'
+    LOCATOR_DESC_NEW_POST: '#create-item > div > div > div:nth-child(2) > div > label > span > textarea'
+    LOCATOR_CONTENT_NEW_POST: '#create-item > div > div > div:nth-child(3) > div > label > span > textarea'
+    LOCATOR_BTNSAVE_NEW_POST: '#create-item > div > div > div:nth-child(7) > div > button'
+    LOCATOR_TITLE_SAVE_POST: '#app > main > div > div.container.svelte-tv8alb > h1'
+    LOCATOR_CONTACT_US: '#app > main > nav > ul > li:nth-child(2)'
+    LOCATOR_TEXT_CONTACT_US: '#app > main > div > div > h1'
+xpath:
+    LOCATOR_CONTACT_US_NAME: //*[@id="contact"]/div[1]/label/input
+    LOCATOR_CONTACT_US_EMAIL: //*[@id="contact"]/div[2]/label/input
+    LOCATOR_CONTACT_US_CONTENT: //*[@id="contact"]/div[3]/label/span/textarea
+    LOCATOR_CONTACT_US_BUTTON: //*[@id="contact"]/div[4]/button

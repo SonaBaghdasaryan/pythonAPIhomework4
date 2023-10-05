@@ -1,0 +1,39 @@
+2023-10-04 16:34:28 DEBUG Starting new HTTPS connection (1): test-stand.gb.ru:443
+2023-10-04 16:34:29 DEBUG https://test-stand.gb.ru:443 "POST /gateway/login HTTP/1.1" 200 237
+2023-10-04 16:34:29 DEBUG инициализация сессии и получение токена для AnSmirnova
+2023-10-04 16:34:29 DEBUG https://test-stand.gb.ru:443 "GET /api/posts?owner=notMe HTTP/1.1" 200 None
+2023-10-04 16:34:29 INFO получены посты с параметрами: юзер: AnSmirnova, автор: owner= 'notMe'
+2023-10-04 16:34:29 DEBUG Starting new HTTPS connection (1): test-stand.gb.ru:443
+2023-10-04 16:34:30 DEBUG https://test-stand.gb.ru:443 "POST /gateway/login HTTP/1.1" 200 237
+2023-10-04 16:34:30 DEBUG инициализация сессии и получение токена для AnSmirnova
+2023-10-04 16:34:31 DEBUG https://test-stand.gb.ru:443 "POST /api/posts?title=NEW+title+API%3A+Test+post.+auto+API&description=description%3A+Test+post.+auto&content=Content%3A+Test+post.+auto HTTP/1.1" 200 319
+2023-10-04 16:34:31 INFO создан пост на странице AnSmirnova
+2023-10-04 16:34:31 DEBUG https://test-stand.gb.ru:443 "GET /api/posts HTTP/1.1" 200 1336
+2023-10-04 16:34:31 INFO получены посты с параметрами: юзер: AnSmirnova, автор: owner= None
+2023-10-04 16:34:31 INFO ====== WebDriver manager ======
+2023-10-04 16:34:33 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 16:34:33 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 16:34:33 INFO There is no [win64] chromedriver "117.0.5938.134" for browser google-chrome "117.0.5938.134" in cache
+2023-10-04 16:34:33 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 16:34:33 DEBUG Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2023-10-04 16:34:33 DEBUG https://googlechromelabs.github.io:443 "GET /chrome-for-testing/known-good-versions-with-downloads.json HTTP/1.1" 200 14000
+2023-10-04 16:34:33 INFO WebDriver version 117.0.5938.92 selected
+2023-10-04 16:34:33 INFO Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win32/chromedriver-win32.zip
+2023-10-04 16:34:33 INFO About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win32/chromedriver-win32.zip
+2023-10-04 16:34:33 DEBUG Starting new HTTPS connection (1): edgedl.me.gvt1.com:443
+2023-10-04 16:34:33 DEBUG https://edgedl.me.gvt1.com:443 "GET /edgedl/chrome/chrome-for-testing/117.0.5938.92/win32/chromedriver-win32.zip HTTP/1.1" 200 7325912
+2023-10-04 16:34:33 INFO Driver downloading response is 200
+2023-10-04 16:34:35 INFO Get LATEST chromedriver version for google-chrome
+2023-10-04 16:34:35 INFO Driver has been saved in cache [C:\Users\Cathy\.wdm\drivers\chromedriver\win64\117.0.5938.134]
+2023-10-04 16:34:35 DEBUG Started executable: `C:\Users\Cathy\.wdm\drivers\chromedriver\win64\117.0.5938.134\chromedriver-win32/chromedriver.exe` in a child process with pid: 12172
+2023-10-04 16:34:35 DEBUG POST http://localhost:62704/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+2023-10-04 16:34:35 DEBUG Starting new HTTP connection (1): localhost:62704
+2023-10-04 16:34:39 DEBUG http://localhost:62704 "POST /session HTTP/1.1" 200 0
+2023-10-04 16:34:39 DEBUG Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"117.0.5938.134","chrome":{"chromedriverVersion":"117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})","userDataDir":"C:\\Users\\Cathy\\AppData\\Local\\Temp\\scoped_dir12172_935326038"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62712"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6fa71b7a9c987e26a2108594cde4324f"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-10-04 16:34:39 DEBUG Finished Request
+2023-10-04 16:34:39 DEBUG POST http://localhost:62704/session/6fa71b7a9c987e26a2108594cde4324f/url {"url": "http://test-stand.gb.ru"}
+2023-10-04 16:34:40 DEBUG http://localhost:62704 "POST /session/6fa71b7a9c987e26a2108594cde4324f/url HTTP/1.1" 200 0
+2023-10-04 16:34:40 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2023-10-04 16:34:40 DEBUG Finished Request
+2023-10-04 16:34:40 DEBUG send work "test" in element login form
+2023-10-04 16:34:40 DEBUG POST http://localhost:62704/session/6fa71b7a9c987e26a2108594cde4324f/element {"using": "css selector", "value": "#login > div:nth-child(1) > label > input"}
